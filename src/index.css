@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Josefin+Sans:ital,wght@0,700;1,200&family=Lato&family=Mochiy+Pop+P+One&family=Montserrat:wght@400;600;800;900&family=Open+Sans&family=Orbitron&family=Poppins:wght@300;400&family=Roboto:wght@500&family=Rubik:wght@300&family=Smooch+Sans:wght@200;300&display=swap');
+:root{
+	--font-family:'Exo', sans-serif;	
+	--backgroundForm:url(./assets/trelloBackground.png);
+	--background: url(./assets/christian-wiebel-t-wkww9Gt1U-unsplash.jpg);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* */
+	
+}
+body {
+	font-family:var(--font-family);
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
